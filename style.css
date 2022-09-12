@@ -1,0 +1,154 @@
+html {
+    font-family: 'Inter';
+    font-style: normal;
+    text-align: center;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+.imgLogo {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+.new,
+.stard,
+#buttonSave,
+#buttonCancel,
+#buttonNewPlayed,
+#buttonDesist {
+    padding: 24px;
+    position: absolute;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    height: 67px;
+}
+
+#newText,
+#enteredWord,
+#buttonCancel,
+#sendWord,
+#text,
+#desistText {
+    color: #0A3871;
+}
+
+.stard,
+#buttonSave {
+    background: #0A3871;
+}
+
+#stardText,
+#buttonSave,
+#newPlayedTex {
+    color: #FFFFFF;
+}
+
+.new,
+.stard {
+    width: 280px;
+    left: 579px;
+    top: 554px;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+}
+
+#stardText,
+#newText {
+    font-size: 18px;
+    width: 232px;
+    height: 19px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#buttonSave,
+#buttonCancel {
+    width: 332px;
+    top: 601px;
+    font-size: 16px;
+}
+
+#buttonNewPlayed,
+#buttonDesist {
+    width: 332px;
+    top: 556px;
+}
+
+#newPlayedText,
+#desistText {
+    width: 284px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.stard {
+    top: 402px;
+}
+
+.new {
+    top: 554px;
+    margin: 5px;
+}
+
+#enteredWord {
+    position: absolute;
+    width: 299px;
+    height: 48px;
+    left: 446px;
+    top: 256px;
+    font-size: 32px;
+}
+
+#buttonSave {
+    left: 446px;
+}
+
+#buttonCancel {
+    left: 846px;
+}
+
+#buttonNewPlayed {
+    left: 439px;
+    background: #0A3871;
+}
+
+#buttonDesist {
+    left: 839px;
+}
+
+#newPlayedText {
+    color: #FFFFFF;
+}
+
+#sendWord {
+    border-radius: 24px;
+    gap: 24px;
+    position: absolute;
+    width: 464px;
+    height: 122px;
+    left: 550px;
+    top: 256px;
+    background-color: #E5E5E5;
+    border: 1px solid #0A3871;
+    font-size: 36px;
+    text-align: center;
+}
+
+#text {
+    position: absolute;
+    display: block;
+    width: 464px;
+    height: 122px;
+    left: 550px;
+    top: 456px;
+    text-align: center;
+    font-size: 36px;
+}
